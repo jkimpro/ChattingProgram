@@ -161,10 +161,6 @@ public class MultiChatController implements Runnable{			//Controller 자체를 쓰래
 	 * */
 	public static void main(String [] args)
 	{
-
-
-		MultiChatServer server = new MultiChatServer();								//서버 실행
-		server.start();
 		
 		MultiChatController app = new MultiChatController(new MultiChatData(), 		//Client 부분 실행
 				new MultiChatUI());
@@ -180,7 +176,9 @@ public class MultiChatController implements Runnable{			//Controller 자체를 쓰래
 				new MultiChatUI());
 		app3.appMain();
 		
-		
+		MultiChatServer server = new MultiChatServer();								//서버 실행
+		server.start();
+
 	}
 	
 	
