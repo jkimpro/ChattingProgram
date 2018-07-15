@@ -7,7 +7,7 @@ developed by Junhyuk Kim
 
 Copyright [Junhyuk Kim]
 
-https://github.com/okjcd123/RhythmGame <br>
+https://github.com/okjcd123/ChattingProgram <br>
 
 
 Licensed under the Apache License, Version 2.0 (the "License");
